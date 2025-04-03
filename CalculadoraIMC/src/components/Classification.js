@@ -16,3 +16,4 @@ const classificaçãoIMC = () => {
     } 
     
 };
+export default Classification;
