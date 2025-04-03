@@ -1,6 +1,6 @@
 import { View, TextInput, Button, StyleSheet } from "react-native";
 import Result from "./result";
-
+import React, { useState } from "react";
 const FormIMC = () => {
     const [peso, setPeso] = useState("");
     const [altura, setAltura] = useState("");
