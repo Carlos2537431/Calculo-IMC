@@ -1,5 +1,5 @@
-import {Text, StyleSheet} from 'react-native';
-
+import { Text, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
 const Title =  () => {
     return (
         <Text style={styles.title}>Calculadora IMC</Text>

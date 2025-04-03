@@ -1,9 +1,12 @@
 import React from "react";
 import { Text, StyleSheet } from "react-native";
 
-const Result = ({ imc }) => { //retorna a mensagem com o resultado do IMC
+const Result = ({ pesoMin, pesoMax }) => { //retorna a mensagem com o peso ideal
     return (
-        <Text style={styles.resultText}>Seu IMC é: {imc}</Text>
+        <>
+            <Text style={styles.resultText}>Seu peso minimo é: {pesoMin} kg</Text>
+            <Text style={styles.resultText}>Seu peso maximo é: {pesoMax} kg</Text>
+        </>
     );
 };
 
