@@ -12,7 +12,7 @@ const styles = StyleSheet.create({ //estilo da mensagem
         marginTop: 20,
         fontSize: 30,
         textAlign: "center",
-        color: "white",
+        color: "black",
     },
 });
 
