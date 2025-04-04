@@ -3,6 +3,7 @@ import Result from './result';
 import Classification from './Classification';
 import IdealWeight from './IdealWeight';
 import React, { useState } from 'react';
+import Title from './title';
 
 const FormIMC = () => {
     const [peso, setPeso] = useState("");
@@ -50,6 +51,7 @@ const FormIMC = () => {
 
     return (
         <View style={styles.formContainer}>
+            <Title/>
             <TextInput
                 style={styles.input}
                 placeholder="Peso (kg)"
@@ -78,7 +80,7 @@ const FormIMC = () => {
 
 const styles = StyleSheet.create({
     formContainer: {
-        backgroundColor: "#f0f0f0",
+        backgroundColor: "lightblue",
         padding: 16,
         borderRadius: 10,
     },
